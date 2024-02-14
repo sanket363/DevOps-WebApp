@@ -17,3 +17,4 @@ spec:
         image: snaket2628/my-website:latest  # Replace with your Docker image name
         ports:
         - containerPort: 80
+        imagePullPolicy: Always
